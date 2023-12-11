@@ -1,3 +1,62 @@
-.dark {
-    background-color: solid black;
+body {
+    max-width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__logo{
+
+    max-width: 140px;
+    max-height: 70px;
+
+}
+
+.header__links-list{
+
+    display: flex;
+
+}
+
+.header_img{
+
+    max-width: 18px;
+    max-height: 18px;
+
+}
+
+.header__links-list-item{
+
+    padding: 20px 16px 20px 16px;
+    list-style: none;
+    font-family: PT Sans;             /*Добавить шрифт*/
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.header__conteiner{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.header_img{
+
+    margin: 22px 12px 22px 12px;
+
+}
+
+.header__button{
+
+    
+
 }
