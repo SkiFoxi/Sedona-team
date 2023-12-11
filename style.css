@@ -1,4 +1,5 @@
-body {
+body{
+    
     max-width: 1200px;
     height: 100%;
     box-sizing: border-box;
@@ -7,9 +8,9 @@ body {
 
 .header{
 
-    display: flex;
-    justify-content: space-between;
-    
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr auto;
 }
 
 .header__logo{
@@ -43,7 +44,6 @@ body {
 }
 
 .header__conteiner{
-
     display: flex;
     align-items: center;
 
