@@ -3,6 +3,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     margin: auto;
+    font-size: 22px;
 }
 
 .header{
@@ -178,6 +179,7 @@ body {
   "city__photo photo-1 photo-1"
   "square__photo road__photo tourists__photo"
   "photo-send photo-send bridge__photo";
+  max-height: 100%; 
 }
 .peculiarities__card div {
     display: flex;
@@ -196,6 +198,7 @@ body {
 
 .photo-1{
     grid-area: photo-1;
+    max-height: 100%; 
 }
 
 .square__photo{
@@ -211,7 +214,8 @@ body {
 }
 
 .photo-send{
-    grid-area: photo-send;    
+    grid-area: photo-send; 
+    max-height: 100%;   
 }
 
 .bridge__photo{
@@ -250,4 +254,62 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+}
+
+.information__card__bottom__menu{
+    padding: 96px 304px 96px 304px;
+}
+
+.information__card__link {
+  list-style: none;
+  text-decoration: none;
+  background-color: #756157;
+  color: #FFFFFF;
+  padding: 15px 50px 15px 50px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-top: 54px;
+}
+
+.menu__form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 52px;
+}
+
+.footer__menu__email {
+  border: none;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px 0px 0px 4px;
+  outline: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F2F2F2;
+}
+
+.information__footer__card {
+  max-width: 100%;
+  background-image: url(../Image/ALTAI.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  padding: 96px 258px 104px 258px ;
+}
+
+.footer__menu__email__bottom {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 50px 10px 50px;
+  background-color: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  color: #FFFFFF;
+}
+
+.section__information__card__text {
+  max-width: 475px;
 }
