@@ -226,3 +226,28 @@ body {
     font-style: normal;
     font-weight: 700;
 }
+
+.main__footer__item-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.main__footer__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px 85px 80px 85px;
+  text-align: center;
+}
+.main__footer__item__image {
+  max-width: 75px;
+}
+
+.main__footer__item h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
