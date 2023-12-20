@@ -169,3 +169,60 @@ body {
     max-width: 800px;
     max-height: 385px;
 }
+
+.peculiarities__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 385px 385px 385px;
+    grid-template-areas:  
+  "city__photo photo-1 photo-1"
+  "square__photo road__photo tourists__photo"
+  "photo-send photo-send bridge__photo";
+}
+.peculiarities__card div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 103px 85px 103px 85px;
+    gap: 60px;
+    text-align: center;
+}
+.city__photo{
+    grid-area: city__photo;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.photo-1{
+    grid-area: photo-1;
+}
+
+.square__photo{
+    grid-area: square__photo;    
+}
+
+.road__photo{
+    grid-area: road__photo;    
+}
+
+.tourists__photo{
+    grid-area: tourists__photo;    
+}
+
+.photo-send{
+    grid-area: photo-send;    
+}
+
+.bridge__photo{
+    grid-area: bridge__photo;
+    background-color: #82B3D3;
+    color: #FFFFFF;    
+}
+
+.peculiarities__card h3 {
+    max-width: 175px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
